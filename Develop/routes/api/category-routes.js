@@ -33,7 +33,14 @@ router.get('/:id', (req, res) => {
 });
 
 router.post('/', (req, res) => {
-  // create a new category
+  try {
+    // Create a new category using the data in the request body
+    const newCategory = await Category.create(req.body);
+    res.status(200).json(newCategory);
+  } catch (err) {
+    // Handle errors by sending a 400 status with a custom message
+    res.status(400).json({ message: 'creation failed' });
+  }
 });
 
 router.put('/:id', (req, res) => {
