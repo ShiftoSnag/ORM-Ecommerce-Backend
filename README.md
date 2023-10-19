@@ -33,3 +33,7 @@ THEN I am able to successfully create, update, and delete data in my database
 1. How to use Express.js to create a functional back end for an e-commerce website.
 2. How to connect to a MySQL database using Sequelize and update environment variable files accordingly.
 3. How to generate a development database with test data using schema and seed commands.
+
+## Video Demo
+[Uploading Untitled_ Oct 18, 2023 6_11 PM.webm…]()
+
