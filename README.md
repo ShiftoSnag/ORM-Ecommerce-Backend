@@ -35,5 +35,5 @@ THEN I am able to successfully create, update, and delete data in my database
 3. How to generate a development database with test data using schema and seed commands.
 
 ## Video Demo
-[Uploading Untitled_ Oct 18, 2023 6_11 PM.webm…]()
+https://drive.google.com/file/d/1tcK4My5rOz3OgFtHbP5abPdstd8A00Uf/view
 
